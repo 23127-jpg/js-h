@@ -1,1 +1,12 @@
 console.log("harshit")
+const gameName= new String('harshitt')
+console.log(gameName[0])
+console.log(gameName.__proto__)
+console.log(gameName.length)
+const newString=gameName.substring(0,4)
+console.log(newString)
+const anotherString=gameName.slice(-8,2)
+console.log(anotherString)
+const newString2="    harshit    "
+console.log(newString2)
+console.log(newString2.trim())
